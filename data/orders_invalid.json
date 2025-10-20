@@ -1,0 +1,80 @@
+[
+  {
+    "id": 2001,
+    "cliente": "Cliente sin productos",
+    "productos": [],
+    "fecha": "2025-03-01T10:30:00Z"
+  },
+  {
+    "id": 2002,
+    "cliente": "Cantidad negativa",
+    "productos": [
+      {"sku": "P201", "cantidad": -5, "precio_unitario": 25000}
+    ],
+    "fecha": "2025-03-02T09:00:00Z"
+  },
+  {
+    "id": 2003,
+    "cliente": "Precio negativo",
+    "productos": [
+      {"sku": "P202", "cantidad": 2, "precio_unitario": -10000}
+    ],
+    "fecha": "2025-03-02T11:20:00Z"
+  },
+  {
+    "id": 2004,
+    "cliente": "SKU vacío",
+    "productos": [
+      {"sku": "   ", "cantidad": 2, "precio_unitario": 5000}
+    ],
+    "fecha": "2025-03-03T14:10:00Z"
+  },
+  {
+    "id": 2005,
+    "cliente": "",
+    "productos": [
+      {"sku": "P301", "cantidad": 5, "precio_unitario": 18000}
+    ],
+    "fecha": "2025-03-04T15:00:00Z"
+  },
+  {
+    "id": 2006,
+    "cliente": "Fecha inválida",
+    "productos": [
+      {"sku": "P401", "cantidad": 1, "precio_unitario": 55000}
+    ],
+    "fecha": "2025-99-99T99:99:99Z"
+  },
+  {
+    "id": 2007,
+    "cliente": "SKU inexistente en API",
+    "productos": [
+      {"sku": "P9999", "cantidad": 2, "precio_unitario": 150000}
+    ],
+    "fecha": "2025-03-05T09:30:00Z"
+  },
+  {
+    "id": 2008,
+    "cliente": "Pedido duplicado prueba idempotencia",
+    "productos": [
+      {"sku": "P101", "cantidad": 2, "precio_unitario": 100000}
+    ],
+    "fecha": "2025-03-06T12:00:00Z"
+  },
+  {
+    "id": 2008,
+    "cliente": "Pedido duplicado prueba idempotencia (2)",
+    "productos": [
+      {"sku": "P101", "cantidad": 2, "precio_unitario": 100000}
+    ],
+    "fecha": "2025-03-06T12:00:00Z"
+  },
+  {
+    "id": 2009,
+    "cliente": "Timeout simulado",
+    "productos": [
+      {"sku": "P000000000000000000000000000000000000000000000", "cantidad": 1, "precio_unitario": 200000}
+    ],
+    "fecha": "2025-03-07T14:30:00Z"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1001,
+    "cliente": "Cafe Huila",
+    "productos": [
+      {"sku": "P1.1", "cantidad": 8, "precio_unitario": 25},
+      {"sku": "P1.2", "cantidad": 12, "precio_unitario": 40}
+    ],
+    "fecha": "2025-02-01T10:30:00Z"
+  },
+  {
+    "id": 1002,
+    "cliente": "Ferretería Cundinamarca",
+    "productos": [
+      {"sku": "P2.1", "cantidad": 50, "precio_unitario": 12},
+      {"sku": "P2.2", "cantidad": 10, "precio_unitario": 8.5},
+      {"sku": "P2.3", "cantidad": 2, "precio_unitario": 95}
+    ],
+    "fecha": "2025-02-02T14:15:00Z"
+  },
+  {
+    "id": 1003,
+    "cliente": "Panadería Tolima",
+    "productos": [
+      {"sku": "P3.1", "cantidad": 20, "precio_unitario": 1.8},
+      {"sku": "P3.2", "cantidad": 4, "precio_unitario": 12},
+      {"sku": "P3.3", "cantidad": 2, "precio_unitario": 18}
+    ],
+    "fecha": "2025-02-03T08:45:00Z"
+  },
+  {
+    "id": 1004,
+    "cliente": "Tecnología Antioquia",
+    "productos": [
+      {"sku": "P4.1", "cantidad": 1, "precio_unitario": 3200},
+      {"sku": "P4.2", "cantidad": 2, "precio_unitario": 245},
+      {"sku": "P4.3", "cantidad": 3, "precio_unitario": 85}
+    ],
+    "fecha": "2025-02-03T12:20:00Z"
+  },
+  {
+    "id": 1005,
+    "cliente": "Hogar Magdalena.",
+    "productos": [
+      {"sku": "P5.1", "cantidad": 1, "precio_unitario": 95},
+      {"sku": "P5.2", "cantidad": 2, "precio_unitario": 235},
+      {"sku": "P5.3", "cantidad": 1, "precio_unitario": 175}
+    ],
+    "fecha": "2025-02-04T09:00:00Z"
+  },
+  {
+    "id": 1006,
+    "cliente": "Supermercado Putumayo",
+    "productos": [
+      {"sku": "P6.1", "cantidad": 10, "precio_unitario": 4},
+      {"sku": "P6.2", "cantidad": 12, "precio_unitario": 38},
+      {"sku": "P6.3", "cantidad": 3, "precio_unitario": 12}
+    ],
+    "fecha": "2025-02-05T16:40:00Z"
+  },
+  {
+    "id": 1007,
+    "cliente": "Automotriz Vichada",
+    "productos": [
+      {"sku": "P7.1", "cantidad": 2, "precio_unitario": 145},
+      {"sku": "P7.2", "cantidad": 4, "precio_unitario": 98},
+      {"sku": "P7.3", "cantidad": 1, "precio_unitario": 6250}
+    ],
+    "fecha": "2025-02-06T11:10:00Z"
+  },
+  {
+    "id": 1008,
+    "cliente": "Textiles Cucuta",
+    "productos": [
+      {"sku": "P8.1", "cantidad": 12, "precio_unitario": 35},
+      {"sku": "P8.2", "cantidad": 5, "precio_unitario": 58},
+      {"sku": "P8.3", "cantidad": 2, "precio_unitario": 89}
+    ],
+    "fecha": "2025-02-07T13:25:00Z"
+  },
+  {
+    "id": 1009,
+    "cliente": "Papelería Pasto",
+    "productos": [
+      {"sku": "P9.1", "cantidad": 100, "precio_unitario": 1},
+      {"sku": "P9.2", "cantidad": 7, "precio_unitario": 8},
+      {"sku": "P9.3", "cantidad": 1, "precio_unitario": 35}
+    ],
+    "fecha": "2025-02-07T17:00:00Z"
+  },
+  {
+    "id": 1010,
+    "cliente": "Restaurante Choco",
+    "productos": [
+      {"sku": "P10.1", "cantidad": 8, "precio_unitario": 13},
+      {"sku": "P10.2", "cantidad": 5, "precio_unitario": 19},
+      {"sku": "P10.3", "cantidad": 2, "precio_unitario": 42}
+    ],
+    "fecha": "2025-02-08T10:00:00Z"
+  }
+]
